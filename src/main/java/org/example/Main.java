@@ -8,7 +8,11 @@ public class Main {
         System.out.print("Enter Amount in INR:");
         int a=s.nextInt();
         int b=a*98;
-        System.out.print("USD for given INR: "+b+"$");
+        int c=a*100;
+        int d=a*18;
+        System.out.println("USD for given INR: "+b+"$");
+        System.out.println("Euro for given INR: "+c);
+        System.out.println("Dinar for given INR: "+d);
 
     }
 }
